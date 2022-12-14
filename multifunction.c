@@ -1,4 +1,5 @@
 #include<stdio.h>
+//Function initialisation
 int eo(int);
 int p(int);
 int genp(int);
@@ -10,6 +11,7 @@ int main()
 int n;
 printf("Enter a number\n");
 scanf("%d",&n);
+  //Function Calling
 eo(n);
 p(n);
 genp(n);
@@ -18,7 +20,7 @@ arm(n);
 perfect(n);
 return 0;
 }
-
+//Function Definition
 int eo(n){
 if(n%2==0){
 printf("%d is even number\n",n);
